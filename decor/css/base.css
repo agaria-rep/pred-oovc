@@ -1,0 +1,46 @@
+:root {
+    --color: #006AA8;
+    --background: #ffffff; 
+    --warbackground: #d5e4ff;
+    --font: 'Lucida Sans', sans-serif;
+    --font-size: 18px;
+    --font-warsize: 20px;
+}
+
+* {
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: var(--font-size);
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--warbackground);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.menu-item {
+    font-size: var(--font-warsize);
+    color: var(--color);
+}
+.menu-item a {color: inherit;}
+
+.menu-icon img {
+    width: 75px;
+    height: 75px;
+}
